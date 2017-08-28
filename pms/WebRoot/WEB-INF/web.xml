@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ProductCtrl</servlet-name>
+    <servlet-class>com.orilore.controller.ProductCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SizeCtrl</servlet-name>
+    <servlet-class>com.orilore.controller.SizeCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OPStoreCtrl</servlet-name>
+    <servlet-class>com.orilore.controller.OPStoreCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OpstoreQueryCtrl</servlet-name>
+    <servlet-class>com.orilore.controller.OpstoreQueryCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StoreCtrl</servlet-name>
+    <servlet-class>com.orilore.controller.StoreCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OStateCtrl</servlet-name>
+    <servlet-class>com.orilore.controller.OStateCtrl</servlet-class>
+  </servlet>
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>ProductCtrl</servlet-name>
+    <url-pattern>/product.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SizeCtrl</servlet-name>
+    <url-pattern>/size.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OPStoreCtrl</servlet-name>
+    <url-pattern>/opstore.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OpstoreQueryCtrl</servlet-name>
+    <url-pattern>/queryopstore.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StoreCtrl</servlet-name>
+    <url-pattern>/storestate.do</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OStateCtrl</servlet-name>
+    <url-pattern>/ostate.do</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
